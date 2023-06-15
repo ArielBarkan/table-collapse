@@ -37,6 +37,7 @@ width: 100%;
     display: table;
     width: 100%;
     border: 2px solid black;
+    border-radius: 10px;
     margin:20px 0;
   }
 
