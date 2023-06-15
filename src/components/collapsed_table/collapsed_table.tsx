@@ -1,4 +1,4 @@
-import { Table, Tr, Th, Td } from "./collapsed_tableWrappers"
+import { Table, Tr, Th, Td, ColumnName } from "./collapsed_tableWrappers"
 
 
 
@@ -10,34 +10,34 @@ const CollapsedTable = () => {
 
     <Table>
       <Tr>
-        <Th>Header 1</Th>
-        <Th>Header 2</Th>
-        <Th>Header 3</Th>
-        <Th>Header 4</Th>
+        <Th>First name: </Th>
+        <Th>Last name: </Th>
+        <Th>Main instrument: </Th>
+        <Th>Birth day: </Th>
       </Tr>
       <Tr>
-        <Td>content 1</Td>
-        <Td>content 1</Td>
-        <Td>content 1</Td>
-        <Td>content 1</Td>
+        <Td><ColumnName>First name: </ColumnName>Ringo</Td>
+        <Td><ColumnName>Last name: </ColumnName>Star</Td>
+        <Td><ColumnName>Main instrument: </ColumnName>Drummer</Td>
+        <Td><ColumnName>Birth day: </ColumnName>July 7, 1940</Td>
       </Tr>
       <Tr>
-        <Td>content 2 content 2</Td>
-        <Td>content 2 content 2</Td>
-        <Td>content 2 content 2</Td>
-        <Td>content 2 content 2</Td>
+        <Td><ColumnName>First name: </ColumnName>George</Td>
+        <Td><ColumnName>Last name: </ColumnName>Harrison</Td>
+        <Td><ColumnName>Main instrument: </ColumnName>Guitar</Td>
+        <Td><ColumnName>Birth day: </ColumnName>February 25, 1943</Td>
       </Tr>
       <Tr>
-        <Td>content 3 content 3</Td>
-        <Td>content 3 content 3</Td>
-        <Td>content 3 content 3</Td>
-        <Td>content 3 content 3</Td>
+        <Td><ColumnName>First name: </ColumnName>Paul</Td>
+        <Td><ColumnName>Last name: </ColumnName>McCartney</Td>
+        <Td><ColumnName>Main instrument: </ColumnName>Bass</Td>
+        <Td><ColumnName>Birth day: </ColumnName>June 18, 1942</Td>
       </Tr>
       <Tr>
-        <Td>content 4 content 4</Td>
-        <Td>content 4 content 4</Td>
-        <Td>content 4 content 4</Td>
-        <Td>content 4 content 4</Td>
+        <Td><ColumnName>First name: </ColumnName>John</Td>
+        <Td><ColumnName>Last name: </ColumnName>Lennon</Td>
+        <Td><ColumnName>Main instrument: </ColumnName>Guitar</Td>
+        <Td><ColumnName>Birth day: </ColumnName>October 9, 1940</Td>
       </Tr>
 
     </Table>
